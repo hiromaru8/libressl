@@ -1,0 +1,13 @@
+mkdir build
+cd build
+
+cmake -DBUILD_SHARED_LIBS=ON -G"Visual Studio 17 2022" ..
+
+not found とか出るけどたぶん問題ないはず
+
+この後、visualstudioでビルドする
+
+
+
+
+
